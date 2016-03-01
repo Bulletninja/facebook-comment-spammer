@@ -37,7 +37,6 @@ def spam():
            for indid in (idlist[(len(idlist)-nos):]):
               facebook.publish(cat = "comments", id = indid, message = mess) #Comments on each post
               facebook.publish(cat = "likes", id = indid)                 #Likes each post
-              
               post_to_post = "http://www.facebook.com/" + str(indid).split('_')[0] + "/posts/" + str(indid).split('_')[1]
               facebook.publish(cat = "feed", id = "me", message = mess, link = post_to_post)
               count = count + 1
