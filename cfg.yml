@@ -1,8 +1,8 @@
 mysql:
-    host: newsdb.quody.co
-    user: amiguito
-    passwd: pshxLVSADVBWLXyY
-    db: amigosq
+    host: host
+    user: user
+    passwd: pass
+    db: db
 fbtoken:
-    me: CAACEdEose0cBAJcHxTrv4N9agGjaXro12OfBZAvZCYiksMqnRud9ZBxS2ED1hCq8AVZClHlb34qwzTgx0hD8h6SXi3qpK4kK6ZB2uk9ZCitFGlN7UbZCZCxox0V6hhKxNS6AVwoXcEkAIue83Se6stxPOPG4tQEKnw0uRC0WxQXXcG9rZAWZA0awY7bomGAVVvnfbyujazt8OHujMXziTJfeHEFjoSl0mBDLkZD
-    other: CAAHC0JZBitP8BAMaKZCqrwtJUnPtLdiwfCHaYfTjZBxuW0ZCvYR147IlZBZAsxpjjeHcZBu5I4rsRto4jBcZA4HQHxlB8RZCexZC0ns0d9nQPF38LzHWCR5tzlf1nHG1buflOjGRc3Gz9LyTtWKRaA08JbF2xg1BReEiVSDuZBKejihnnf1ebUc4NNNFiFvFG4s06wJky3pisQaGgZDZD
+    me: yourtoken
+    other: someothertoken
