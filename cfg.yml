@@ -1,8 +1,0 @@
-mysql:
-    host: host
-    user: user
-    passwd: pass
-    db: db
-fbtoken:
-    me: yourtoken
-    other: someothertoken
