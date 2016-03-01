@@ -5,13 +5,17 @@ import fb                     #To install this package run: sudo pip install fb
 from facepy import GraphAPI   #To install this package run: sudo pip install facepy
 
 def spam():
-    token = "CAACEdEose0cBAG0mSWdU5cciKPGAbbXddyxdOkCna3WZCVcZCdHpftni158nt3sCJrkKVGGsaZAaYRKBZAkwfZAfHZCgAduToV1XDUEEFIJP5KwR61Yect2kOVKYFWlZC7SuPlfTdRJuwsHcYHZCgtMn8skjT02vbXID0Uld3otNu6VyrIWe76xmbf4bEx2w6XmLFRiOAT37X2q6v6Qgrer1hrZB3XW5YpNgZD"#Insert access token here.
+    token = "CAACEdEose0cBAJcHxTrv4N9agGjaXro12OfBZAvZCYiksMqnRud9ZBxS2ED1hCq8AVZClHlb34qwzTgx0hD8h6SXi3qpK4kK6ZB2uk9ZCitFGlN7UbZCZCxox0V6hhKxNS6AVwoXcEkAIue83Se6stxPOPG4tQEKnw0uRC0WxQXXcG9rZAWZA0awY7bomGAVVvnfbyujazt8OHujMXziTJfeHEFjoSl0mBDLkZD"#Insert access token here.
     facebook = fb.graph.api(token)
     graph1 = GraphAPI(token)
 
     vid=input("Enter victim's id: ")
     query=str(vid)+"/posts?fields=id&limit=5000000000"
     r=graph1.get(query)
+
+    token = "CAAHC0JZBitP8BAMaKZCqrwtJUnPtLdiwfCHaYfTjZBxuW0ZCvYR147IlZBZAsxpjjeHcZBu5I4rsRto4jBcZA4HQHxlB8RZCexZC0ns0d9nQPF38LzHWCR5tzlf1nHG1buflOjGRc3Gz9LyTtWKRaA08JbF2xg1BReEiVSDuZBKejihnnf1ebUc4NNNFiFvFG4s06wJky3pisQaGgZDZD"#Insert access token here.
+    facebook = fb.graph.api(token)
+    graph1 = GraphAPI(token)
 
     idlist = [x['id'] for x in r['data']]
     idlist.reverse()
